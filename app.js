@@ -4,7 +4,7 @@ dotenv.config({ path: path.resolve("config/.env") });
 import express from "express";
 import bootstrap from "./src/app.controller.js";
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3007;
 
 bootstrap(app, express);
 
